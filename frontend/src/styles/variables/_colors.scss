@@ -1,0 +1,17 @@
+// SCSS color variables copied from :root in main.scss
+$background-color: #0A0A0A;
+$color-primary: #D9D9D9;
+$color-text: #D9D9D9;
+$color-text-active: #FFFFFF;
+$color-text-muted: #999999;
+$color-accent: #999999;
+$background-color-secondary: #111111;
+$background-color-tertiary: #3C3C3C;
+$stroke-color-primary: #3C3C3C;
+
+$scrollbar-track-bg: $background-color;
+$scrollbar-thumb-bg: #ffffff1a;
+$scrollbar-thumb-hover-bg: #fff3;
+// $scrollbar-thumb-bg: $color-accent;
+// $scrollbar-thumb-hover-bg: $color-text-active;
+$scrollbar-width: 12px;

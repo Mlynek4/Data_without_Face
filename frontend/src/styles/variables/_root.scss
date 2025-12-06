@@ -1,0 +1,34 @@
+@use 'colors';
+@use 'spacing';
+@use 'radius';
+
+:root {
+  --background-color: #{colors.$background-color};
+  --color-primary: #{colors.$color-primary};
+  --color-text: #{colors.$color-text};
+  --color-text-active: #{colors.$color-text-active};
+  --color-text-muted: #{colors.$color-text-muted};
+  --color-accent: #{colors.$color-accent};
+  --background-color-secondary: #{colors.$background-color-secondary};
+  --background-color-tertiary: #{colors.$background-color-tertiary};
+  --stroke-color-primary: #{colors.$stroke-color-primary};
+
+  --spacing-xss: #{spacing.$spacing-xss};
+  --spacing-xs: #{spacing.$spacing-xs};
+  --spacing-sm: #{spacing.$spacing-sm};
+  --spacing-md: #{spacing.$spacing-md};
+  --spacing-lg: #{spacing.$spacing-lg};
+  --spacing-vlg: #{spacing.$spacing-vlg};
+
+  --radius-xs: #{radius.$radius-xs};
+  --radius-sm: #{radius.$radius-sm};
+  --radius-md: #{radius.$radius-md};
+  --radius-lg: #{radius.$radius-lg};
+  --radius-xl: #{radius.$radius-xl};
+
+  --padding-xss: #{spacing.$padding-xss};
+  --padding-xs: #{spacing.$padding-xs};
+  --padding-sm: #{spacing.$padding-sm};
+  --padding-md: #{spacing.$padding-md};
+  --padding-lg: #{spacing.$padding-lg};
+}

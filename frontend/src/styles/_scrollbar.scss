@@ -1,0 +1,28 @@
+@use 'variables/colors';
+
+
+/* Webkit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: colors.$scrollbar-width;
+  height: colors.$scrollbar-width;
+}
+
+::-webkit-scrollbar-track {
+  background: colors.$scrollbar-track-bg;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: colors.$scrollbar-thumb-bg;
+  border-radius: 8px;
+  border: 3px solid colors.$scrollbar-track-bg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: colors.$scrollbar-thumb-hover-bg;
+}
+
+/* Firefox */
+* {
+  scrollbar-color: colors.$scrollbar-thumb-bg colors.$scrollbar-track-bg;
+}

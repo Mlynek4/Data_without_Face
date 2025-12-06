@@ -1,0 +1,60 @@
+
+
+@use 'variables/root';
+@use 'variables/colors';
+@use 'variables/spacing';
+@use 'variables/radius';
+@use 'variables/breakPoints';
+@use 'scrollbar';
+
+@use "mixins";
+
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+}
+
+html {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--background-color) ;
+  color: var(--color-text);
+}
+
+button {
+   border: none;
+   outline: none;
+   background: none;
+   padding: 0;
+   margin: 0;
+   font: inherit;
+   cursor: pointer;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
