@@ -2,7 +2,6 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import RenderTable from "./components/MainWrapper";
-import RunButton from "./components/RunButton";
 import { css } from "@emotion/css";
 import colorPalette from "./constants/colorPalette";
 
@@ -27,7 +26,6 @@ function App() {
       >
         <RenderTable />
 
-        <RunButton />
       </div>
     </div>
   );

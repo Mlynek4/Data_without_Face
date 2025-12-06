@@ -3,6 +3,7 @@ import { typography } from "../constants/typography";
 import { css, cx } from "@emotion/css";
 import colorPalette from "../constants/colorPalette";
 import { useState } from "react";
+import RunButton from "./RunButton";
 
 const Header = ({ header, description }) => {
   return (
@@ -44,7 +45,7 @@ const OutputTextArea = ({ value, onChange, readOnly = false }) => {
         "output-border-right",
         css`
           width: 100%;
-          height: 300px;
+          height: 400px;
           border: none;
           resize: none;
           padding: 15px;
@@ -69,58 +70,61 @@ const RenderTable = () => {
   const [substitutedText, setSubstitutedText] = useState("");
 
   return (
-    <div
-      className={css`
-        border: 1px solid ${colorPalette.strokePrimary};
-      `}
-    >
+    <>
       <div
         className={css`
-          display: flex;
-
-          .header-border-right:not(:last-child) {
-            border-right: 1px solid ${colorPalette.strokePrimary};
-          }
+          border: 1px solid ${colorPalette.strokePrimary};
         `}
       >
-        <Header
-          header="Wklej tekst tutaj"
-          description="Surowy tekst do anonimizacji."
-        />
+        <div
+          className={css`
+            display: flex;
 
-        <Header
-          header="Dane zanonimizowane"
-          description="Tekst z danymi zastąpionymi tokenami"
-        />
+            .header-border-right:not(:last-child) {
+              border-right: 1px solid ${colorPalette.strokePrimary};
+            }
+          `}
+        >
+          <Header
+            header="Wklej tekst tutaj"
+            description="Surowy tekst do anonimizacji."
+          />
 
-        <Header
-          header="Dane zamienne"
-          description="Tekst z przykładowymi wartościami pasującymi do tokenów."
-        />
+          <Header
+            header="Dane zanonimizowane"
+            description="Tekst z danymi zastąpionymi tokenami"
+          />
+
+          <Header
+            header="Dane zamienne"
+            description="Tekst z przykładowymi wartościami pasującymi do tokenów."
+          />
+        </div>
+
+        <div
+          className={css`
+            display: flex;
+
+            .output-border-right:not(:last-child) {
+              border-right: 1px solid ${colorPalette.strokePrimary};
+            }
+          `}
+        >
+          <OutputTextArea value={inputText} onChange={setInputText} />
+          <OutputTextArea
+            value={anonymizedText}
+            onChange={setInputText}
+            readOnly
+          />
+          <OutputTextArea
+            value={substitutedText}
+            onChange={setInputText}
+            readOnly
+          />
+        </div>
       </div>
-
-      <div
-        className={css`
-          display: flex;
-
-          .output-border-right:not(:last-child) {
-            border-right: 1px solid ${colorPalette.strokePrimary};
-          }
-        `}
-      >
-        <OutputTextArea value={inputText} onChange={setInputText} />
-        <OutputTextArea
-          value={anonymizedText}
-          onChange={setInputText}
-          readOnly
-        />
-        <OutputTextArea
-          value={substitutedText}
-          onChange={setInputText}
-          readOnly
-        />
-      </div>
-    </div>
+      <RunButton />
+    </>
   );
 };
 
