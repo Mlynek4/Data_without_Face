@@ -7,7 +7,6 @@ import json
 from datetime import datetime, timedelta
 import pandas as pd
 
-# random.seed(20251206)
 
 # --- ustawienia ---
 NOISE_PROB = 0.1   # <--- tutaj ustawiasz ogólne prawdopodobieństwo wprowadzenia błędu/typu (0.1 = 10%)
