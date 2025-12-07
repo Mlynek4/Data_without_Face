@@ -318,9 +318,9 @@ def random_surname():
 
 def random_address(polish=True):
     if polish:
-        addr = f"ul. {random.choice(streets)} {random.randint(1,200)}, {random.choice(cities_pl)}"
+        addr = f"ul. {random.choice(streets)} {random.randint(1,200)}, {random.choice(cities)}"
     else:
-        addr = f"{random.randint(1,200)} {random.choice(['Main St','High St'])}, {random.choice(cities_foreign)}"
+        addr = f"{random.randint(1,200)} {random.choice(['Main St','High St'])}, {random.choice(cities)}"
     return introduce_typo(addr, prob=NOISE_PROB)
 
 def random_phone(polish=True):
@@ -398,26 +398,6 @@ def generate_credit_card_number():
     fmt = random.choice([lambda s: s, lambda s: " ".join(s[i:i+4] for i in range(0,len(s),4)), lambda s: "-".join(s[i:i+4] for i in range(0,len(s),4))])
     return introduce_typo(fmt(s), prob=NOISE_PROB)
 
-def generate_iban(polish=True):
-    country = "PL" if (polish and random.random() < 0.9) else random.choice(["DE","FR","GB","ES","NL","IT","BE","SE"])
-    bban = "".join(str(random.randint(0,9)) for _ in range(26))
-    return introduce_typo(country + bban, prob=NOISE_PROB)
-
-def random_username():
-    name = random.choice(first_names).lower()
-    surname = random.choice(surnames).lower()
-    templates = [f"{name}{surname}{random.randint(1,999)}", f"{name}.{surname}", f"{name}_{random.randint(10,999)}", f"@{name}{random.randint(1,99)}"]
-    return introduce_typo(random.choice(templates), prob=NOISE_PROB)
-
-def generate_secret():
-    patterns = [
-        lambda: f"api_key_{random.randint(10000,999999)}",
-        lambda: f"passwd:{''.join(random.choice(string.ascii_letters+string.digits) for _ in range(10))}",
-        lambda: f"AKIA{''.join(random.choice(string.ascii_uppercase+string.digits) for _ in range(16))}",
-        lambda: f"token-{random.randint(100000,999999)}-x"
-    ]
-    return introduce_typo(random.choice(patterns)(), prob=NOISE_PROB)
-
 # populate rows
 for cat in categories:
     for _ in range(per_cat):
@@ -430,13 +410,13 @@ for cat in categories:
             rows.append((cat, introduce_typo(random.choice(surnames), prob=NOISE_PROB)))
         elif cat == "age":
             # Użycie listy ages_values
-            rows.append((cat, introduce_typo(random.choice(ages_values), prob=NOISE_PROB)))
+            rows.append((cat, introduce_typo(random.choice(ages), prob=NOISE_PROB)))
         elif cat == "date-of-birth":
             # Użycie listy dates_of_birth_values
-            rows.append((cat, introduce_typo(random.choice(dates_of_birth_values), prob=NOISE_PROB)))
+            rows.append((cat, introduce_typo(random.choice(dates_of_birth), prob=NOISE_PROB)))
         elif cat == "date":
             # Użycie listy dates_values
-            rows.append((cat, introduce_typo(random.choice(dates_values), prob=NOISE_PROB)))
+            rows.append((cat, introduce_typo(random.choice(dates), prob=NOISE_PROB)))
         elif cat == "sex":
             rows.append((cat, introduce_typo(random.choice(sexes), prob=NOISE_PROB)))
         elif cat == "phone":
@@ -457,11 +437,12 @@ for cat in categories:
         elif cat == "city":
             rows.append((cat, introduce_typo(random.choice(cities), prob=NOISE_PROB)))
         elif cat == "address":
-            # Generowane losowo (Polska/Obca)
+            allAddresses = addresses +  [random_address(polish=is_polish) for _ in range(30)]
             rows.append((cat, introduce_typo(random.choice(addresses), prob=NOISE_PROB)))
         elif cat == "email":
             # Użycie listy emails_values
-            rows.append((cat, introduce_typo(random.choice(emails), prob=NOISE_PROB)))
+            allEmails = emails + [random_email(polish=is_polish) for _ in range(30)]
+            rows.append((cat, introduce_typo(random.choice(allEmails), prob=NOISE_PROB)))
         elif cat == "pesel":
             # Użycie listy pesels_values
             rows.append((cat, introduce_typo(random.choice(pesels), prob=NOISE_PROB)))
