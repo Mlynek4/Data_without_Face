@@ -13,7 +13,7 @@ OUTPUT_CONLL_FILE = "output_data.txt"
 # Przykłady:
 # 1. Jeśli masz 26 szablonów i ustawisz 30, otrzymasz 780 rekordów (26 * 30).
 # 2. Jeśli masz 50 szablonów i ustawisz 10, otrzymasz 500 rekordów.
-RECORDS_PER_TEMPLATE = 50 # TUTAJ KONTROLUJESZ LICZBĘ GENEROWANYCH ZDAŃ
+RECORDS_PER_TEMPLATE = 10 # TUTAJ KONTROLUJESZ LICZBĘ GENEROWANYCH ZDAŃ
 
 # Regex do ekstrakcji placeholderów (np. [name])
 PLACEHOLDER_RE = re.compile(r"\[([^\]]+)\]")

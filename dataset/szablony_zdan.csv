@@ -1,391 +1,391 @@
 template
-**Zaktualizowano** adres [address] w systemie po **potwierdzeniu** tożsamości numerem PESEL [pesel].
-Wysłano informację o studentach z [school-name] na adres [email].
-Numer [pesel] jest chroniony kluczem [secret] i powiązany z kontem [bank-account].
-"**Wystawiono** certyfikat potwierdzający, że [name] [surname] **pracował** na stanowisku [job-title] do dnia [date]."
-Pacjent [name] [surname] w wieku [age] zgłosił [health] w [city].
-Wymagane jest doświadczenie na stanowisku [job-title] dla kandydatów płci [sex].
-Weryfikacja płci [sex] jest niezbędna do rozpatrzenia sprawy [document-number] w dniu [date].
-Pani [name] wskazała [ethnicity] w ankiecie z datą urodzenia [date-of-birth].
-Zgłoszenie e-mail [email] zostało wysłane w dniu [date] z [city].
-Firma [company] **zatrudnia** [name] [surname] od [date] (wiek [age]).
-Zarejestrowano nazwisko [surname] w systemie [username] pod adresem [email].
-Pani [surname] opuściła [school-name] w wieku [age].
-Księgowy **skontaktował się** z [name] [surname] na adres [email] w sprawie wynagrodzenia na konto [bank-account].
-Lekarz **poprosił** o kontakt do [relative] po zbadaniu [health] pacjenta [name] [surname].
-Klucz [secret] jest wymagany do dostępu do danych [pesel] osoby [name] [surname].
-Raport **zawiera** szczegółowe dane na temat [sexual-orientation] osoby o imieniu [name] [surname].
-Data urodzenia [date-of-birth] jest niezbędna do weryfikacji PESEL [pesel].
-System **odnotował** nieudane **logowanie** na konto [username] z kluczem [secret].
-Kontakt telefoniczny pod numerem [phone] jest kluczowy dla sprawy [document-number].
-Pani [name] opuściła [school-name] w dniu [date].
-**Przekazano** numer karty [credit-card-number] do działu bezpieczeństwa po **wykryciu** użycia go w [city].
-**Skorygowano** numer dokumentu [document-number] oraz **zaktualizowano** datę [date] na dokumencie.
-Wprowadzono klucz [secret] w celu autoryzacji transakcji kartą [credit-card-number].
-Konto [username] zostało udostępnione przez [relative].
-Przelew na konto [bank-account] dla [name] [surname] został zatwierdzony.
-W urzędzie **odrzucono** wniosek [document-number] **złożony** przez [name] [surname] z powodu braków w adresie [address].
-Sprawa **dotyczy** orientacji [sexual-orientation] oraz numeru PESEL: [pesel] osoby [name] [surname].
-Osoba na stanowisku [job-title] z [company] ma PESEL [pesel].
-Zeznanie [relative] **kwestionuje** datę urodzenia [date-of-birth] swojego brata [name].
-Konto [username] i klucz [secret] należą do [name] [surname] (wiek [age]).
-"Ostatnia aktualizacja nastąpiła w dniu [date], co potwierdza [document-number]."
-"Zapisano, że [name] ma drugie imię [name]."
-Organizacje **chronią** [name] [surname] ze względu na jego orientację [sexual-orientation] i pochodzenie [ethnicity].
-System **wygenerował** tymczasowy klucz API [secret] dla pracownika [name] [surname] z firmy [company].
-Wyznanie [religion] i [political-view] są przypisane do osoby [name].
-Pochodzenie [ethnicity] i orientacja [sexual-orientation] są objęte ochroną (PESEL [pesel]).
-Raport **zawiera** szczegółowe dane na temat poglądów [political-view] i stanu [health].
-Uczelnia [school-name] **przyznała** [name] [surname] numer identyfikacyjny [pesel] do celów rekrutacyjnych.
-Wiek [age] i pochodzenie [ethnicity] są danymi statystycznymi.
-**Odmówiono** ujawnienia PESEL [pesel] ze względu na wrażliwość danych [health].
-**Zlecono** kontrolę adresu [address] [city] po **otrzymaniu** zgłoszenia od [relative].
-Wiek [age] [relative] ma znaczenie w kontekście daty [date].
-Zarejestrowano numer [phone] jako dane do **weryfikacji** transakcji [bank-account].
-Pisemne **potwierdzenie** doręczenia jest dostępne pod numerem [phone] w Urzędzie.
-Adres [address] należy do osoby płci [sex] (wiek [age]).
-Księgowy kontaktuje się z [name] [surname] w sprawie zaległości na koncie [bank-account].
-Doświadczenie zawodowe jako [job-title] wymagane jest od wieku [age].
-Osoba [name] [surname] ma [age] lat i mieszka w [city] pod adresem [address].
-Dokument **odnosi się** do pochodzenia [ethnicity] osoby [name] [surname] zamieszkałej pod adresem [address].
-"**Odnotowano**, że [name] [surname] **zrezygnował** ze stanowiska [job-title] i **podał** numer konta [bank-account] do rozliczenia."
-Informacje dotyczą bliskiego krewnego: [relative] [name] [surname].
-Klient w wieku [age] skontaktował się z [phone].
-**Weryfikuje się** dane [health] i [sex] w aktach [name] [surname] o numerze [document-number].
-"**Zgłoszono** podejrzenie, że [relative] **kwestionuje** datę urodzenia [date-of-birth] swojego brata [name]."
-Minimalny wiek [age] jest wymagany do otwarcia konta [bank-account] w firmie [company].
-Wiek [age] jest kluczowy w kontekście świadczeń medycznych ([health]).
-"Dokumentacja **wskazuje**, że [name] [surname] **jest objęty** ochroną ze względu na poglądy [political-view]."
-**Otrzymano** potwierdzenie płatności kartą [credit-card-number] dla użytkownika [username].
-Wójt gminy **rozpatruje** prośbę **dotyczącą** zmiany daty urodzenia [date-of-birth].
-**Uzupełniono** wniosek o dane [name] [surname] oraz **załączono** oświadczenie dotyczące relacji [relative].
-Klient [name] [surname] **zażądał** zwrotu środków na konto [bank-account] w dniu [date].
-Osoba płci [sex] zgłosiła orientację [sexual-orientation] (wiek [age]).
-Wiek [age] osoby [name] i jej pochodzenie [ethnicity] są danymi wrażliwymi.
-"**Zobowiązuje się** stronę [name] [surname] do **uzupełnienia** braków formalnych, przesyłając je na adres [email]."
-Bank **odrzucił** wniosek [name] [surname] o kredyt po **sprawdzeniu** numeru [pesel].
-**Zobowiązuje się** [name] [surname] do dostarczenia zaświadczenia o zatrudnieniu w [company] w [city].
-Numer [pesel] należy do osoby wyznania [religion] (DOB [date-of-birth]).
-Wiek [age] i poglądy [political-view] są danymi statystycznymi w [city].
-Wymagany jest klucz [secret] do weryfikacji konta pracownika [username] w [company].
-Decyzja **wchodzi w życie** z dniem jej ogłoszenia i dotyczy adresu [address].
-Pacjent płci [sex] zgłosił problem [health] i adres [address] w [city].
-Karta płatnicza [credit-card-number] **została zablokowana** w dniu [date] po próbie transakcji.
-Inspektor [name] [surname] **nadzoruje** projekt w [company] i **wymaga** klucza [secret].
-Poglądy [political-view] są powiązane z datą urodzenia [date-of-birth] i adresem [address].
-W systemie zapisano klucz bezpieczeństwa: [secret] (klucz poufny).
-Administrator **odblokował** konto [username] i **wysłał** nowe hasło na adres [email].
-Zarejestrowano adres [address] jako siedzibę firmy [company].
-"Dział HR w [company] odnotował, że [name] ma poglądy [political-view] (email [email])."
-Sprawa [document-number] dotyczy [name] i jego krewnego [relative].
-Numer [document-number] jest powiązany z kluczem szyfrującym [secret] i adresem [address].
-"**Odnotowano**, że dokument [document-number] **zawierał** sprzeczne informacje na temat stanu [health] i adresu [address]."
-Profesor [name] [surname] **wykłada** w [school-name] i **podał** swój numer telefonu [phone] do kontaktu.
-Klient **podał** dane kontaktowe w związku z historią zdrowotną [health] swojego krewnego [relative].
-"W trakcie wywiadu [name] [surname] **oświadczył**, że jest płci [sex] i **wyznaje** [religion]."
-**Otrzymano** potwierdzenie płatności kartą [credit-card-number] dla użytkownika [username].
-"**Wykryto**, że [name] [surname] **użył** służbowego e-maila [email] do **zapisania** numeru karty [credit-card-number]."
-Wniosek o kredyt na konto [bank-account] został odrzucony (PESEL [pesel]).
-Student [name] [surname] **złożył** podanie o urlop dziekański w [school-name] z powodu [health].
-Ostatnia aktywność na koncie [bank-account] została odnotowana w dniu [date].
-Pani [name] na stanowisku [job-title] podała adres [address] i telefon [phone].
-"W związku z [health], [name] [surname] **wskazał** wiek [age] i datę urodzenia [date-of-birth] jako dane krytyczne."
-Zeznanie [relative] dotyczy swobody wyznania [religion] w [address].
-Wymagane jest doświadczenie na stanowisku [job-title] dla kandydatów płci [sex].
-Dokument **odnosi się** do [sexual-orientation] osoby zamieszkałej pod adresem [address].
-**Zażądano** numeru telefonu [phone] w kontekście historycznych danych medycznych z [date].
-Pacjent [name] [surname] **zgłosił** problem zdrowotny: [health] i **wymaga** pilnej konsultacji.
-**Zażądano** numeru telefonu [phone] w kontekście historycznych danych medycznych z [date].
-**Zobowiązuje się** [name] [surname] do dostarczenia zaświadczenia o zatrudnieniu w [company] na stanowisku [job-title].
-Osoba uczęszczała do [school-name] w wieku [age].
-Dane zdrowotne [health] są objęte klauzulą tajności [secret] i adresem [email].
-Użycie klucza [secret] odnotowano pod adresem [address] w dniu [date].
-Lekarz **badał** stan zdrowia [health] pacjenta [name] [surname] (wiek [age]).
-Dane [sexual-orientation] zostały przekazane do działu HR w [company] (telefon [phone]).
-"**Wydano** zaświadczenie numer [document-number] dla [name] [surname] w dniu [date], **potwierdzające** wiek [age]."
-"W trakcie wywiadu [name] [surname] **oświadczył**, że jest płci [sex] i wyznania [religion]."
-Brak reakcji ze strony [company] jest niedopuszczalny (email: [email]).
-Wypłata wynagrodzenia dla [name] [surname] nastąpi na konto [bank-account] w dniu [date].
-Skontaktowano się z [phone] z regionu [city].
-Pełnomocnik [name] [surname] **przedstawił** nowy adres [address] i numer [phone].
-Wniosek **mówi** o wieku [age] w kontekście poglądów [political-view].
-Poglądy [political-view] są powiązane z przelewami na konto [bank-account] z karty [credit-card-number].
-Zgłoszono dyskryminację w [school-name] z powodu [sexual-orientation] w dniu [date].
-Adres zamieszkania to: [address] w [city].
-Brak klucza [secret] uniemożliwia weryfikację konta [username] i [credit-card-number].
-Dane [name] [surname] i numer [phone] są w aktach sprawy z kluczem [secret].
-[relative] zgłosił problem w [school-name].
-Zgłoszono problem z kontem [username] należącym do krewnego [relative].
-"Zapisano, że [political-view] jest chronione kluczem [secret]."
-**Zarejestrowano** nowy numer PESEL: [pesel] w bazie danych z uwzględnieniem daty [date].
-Psycholog **zażądał** informacji o [relative] w związku ze stanem zdrowia [health] pacjenta [name].
-Pracownik firmy [company] zgłosił urlop z powodu [health] (PESEL [pesel]).
-**Przyjęto** do wiadomości oświadczenie o nowym adresie korespondencyjnym [address] (email: [email]).
-Zapisano numer karty płatniczej: [credit-card-number] dla [username].
-Data [date-of-birth] została przekazana do działu HR w [company] wraz z informacją o wieku [age].
-Pełnomocnik [name] [surname] **przedstawił** numer telefonu [phone] do kontaktu.
-Zgłaszający jest płci: [sex] (wiek [age]).
-Rekrutacja do [school-name] jest możliwa dla osób w wieku [age].
-Zgłoszono użycie karty [credit-card-number] przez krewnego [relative] w [school-name].
-**Sprawdzono** poprawność numeru identyfikacyjnego [document-number] w Centralnym Rejestrze Danych Administracyjnych.
-Klucz [secret] musi zostać zmieniony co [age] dni.
-**Monitoruje się** stan [health] u osoby w wieku [age] zamieszkałej w [city].
-Rektor [name] [surname] z [school-name] prosi o przelew na konto [bank-account].
-Imię [name] jest kluczowym elementem identyfikacji w systemie.
-"W trakcie wywiadu [name] [surname] **oświadczył**, że jest płci [sex] i **wyznaje** [religion]."
-**Przydzielono** nowy login [username] i **zażądano** zmiany hasła [secret] dla [name] [surname] w [company].
-Adres e-mail [email] jest powiązany z adresem zamieszkania [address] w [city].
-Numer [document-number] zawiera dane o pochodzeniu [ethnicity] osoby płci [sex].
-Adres e-mail [email] jest identyfikatorem konta [username] w systemie.
-Zeznanie [relative] dotyczy pochodzenia [ethnicity] i jego krewnego [name].
-Petent [name] [surname] **wniósł** o wydanie duplikatu dokumentu [document-number] w związku ze zmianą adresu.
-[name] [surname] **awansował** i **otrzymał** nowe uprawnienia (numer [document-number]).
-Konto [username] zostało zablokowane ze względu na naruszenie regulaminu.
-[name] [surname] **awansował** ze stanowiska [job-title] i **otrzymał** nowe uprawnienia.
-Osoba o imieniu [name] urodziła się w dniu [date-of-birth].
-"Zapisano, że [ethnicity] jest chronione prawnie (telefon [phone])."
-Numer dokumentu [document-number] jest wymagany do podjęcia pracy jako [job-title].
-Zgłoszono problem z kartą [credit-card-number] należącą do [name] [surname] (PESEL [pesel]).
-Karta płatnicza [credit-card-number] **została zablokowana** po próbie transakcji na rachunek [bank-account].
-Numer karty [credit-card-number] jest powiązany z adresem e-mail [email] i telefonem [phone].
-Data [date-of-birth] jest chroniona kluczem [secret] i adresem [email].
-Umowa została podpisana w dniu [date] przez osobę w wieku [age] lat.
-"W związku z [health], [name] [surname] **wskazał** datę urodzenia [date-of-birth] jako dane krytyczne."
-Kontakt telefoniczny z [name] pod numerem [phone] jest niemożliwy.
-Dokument zawiera notatkę o płci [sex] osoby [name] (e-mail [email]).
-Zlecono kontrolę użycia klucza [secret] w dniu [date] przez [name] [surname].
-Klient [name] [surname] prosi o kontakt z [relative] pod numerem [phone] lub [email].
-W urzędzie **odrzucono** wniosek z powodu braków w adresie [address] [city].
-Inspektor [name] [surname] **nadzoruje** projekt i **wymaga** klucza [secret] od [job-title].
-Zażądano podania nazwiska [surname] w związku z użyciem karty [credit-card-number].
-Zlecono sprawdzenie adresu [address] dla rodziny [surname] w dniu [date].
-Wprowadzono ostateczną adnotację w rejestrze pod numerem [document-number] dotyczącą osoby [name] [surname].
-Zgłoszenie **wymaga** podania adresu e-mail [email] i **potwierdzenia** tożsamości numerem [pesel].
-Firma [company] odnotowała pochodzenie [ethnicity] pracownika [name].
-Potwierdzono orientację seksualną: [sexual-orientation] w oświadczeniu.
-"**Zgłoszono** podejrzenie, że [relative] jest krewnym [name] [surname] w [school-name]."
-Orientacja [sexual-orientation] jest badana przez psychologa w kontekście [health] i [relative].
-Zażądano numeru telefonu [phone] w kontekście historycznych danych medycznych [health] z [date].
-W systemie zarejestrowano płeć [sex] dla numeru PESEL [pesel] (DOB: [date-of-birth]).
-Wiek [age] osoby [name] i jej [religion] są danymi wrażliwymi (PESEL [pesel]).
-Pochodzenie [ethnicity] jest badane w kontekście wyznania [religion] i daty [date].
-"Urzędnik potwierdza, że rodzina o nazwisku [surname] figuruje w rejestrze [city]."
-Karta płatnicza [credit-card-number] **została zablokowana** w dniu [date] po próbie transakcji na rachunek [bank-account].
-W [school-name] odnotowano płeć [sex] studenta [name].
-Osoba mająca [age] lat podała zły numer karty [credit-card-number].
-Weryfikacja wieku [age] jest wymagana do dostępu do konta [username].
-Osoba o płci [sex] zgłosiła poglądy [political-view] i pochodzenie [ethnicity].
-Wydanie karty [credit-card-number] wymaga podania daty urodzenia [date-of-birth].
-"Pani [name] podała, że jej orientacja to [sexual-orientation] (email [email])."
-Osoba urodzona [date-of-birth] **wyznaje** [religion] i ma poglądy [political-view].
-Firma [company] ma swoją siedzibę w mieście [city].
-Student [name] [surname] **złożył** podanie o urlop dziekański w [school-name] z powodu stanu zdrowia [health].
-**Przetwarzano** dane dotyczące wieku [age] i stanu [health] osoby [name] [surname] ur. [date-of-birth].
-**Zgłoszenie** wymaga podania adresu e-mail [email] i **potwierdzenia** tożsamości numerem [pesel].
-Klient **podał** dane kontaktowe w związku z historią zdrowotną [health] swojego krewnego [relative].
-Firma [company] **zatrudnia** [name] [surname] na stanowisku [job-title] od [date-of-birth].
-Przelew na konto [bank-account] dla [name] [surname] został zatwierdzony.
-[name] [surname] **awansował** ze stanowiska [job-title] i **otrzymał** nowe uprawnienia [document-number].
-Numer [document-number] jest wymagany do uzyskania dostępu do konta [username] w firmie [company].
-**Monitoruje się** dane dotyczące pochodzenia [ethnicity] (klucz [secret]).
-W akcie urodzenia widnieje [name] [surname] ur. [date-of-birth].
-**Zobowiązuje się** [name] [surname] do dostarczenia zaświadczenia o zatrudnieniu na stanowisku [job-title].
-**Zaleca się** kontakt mailowy na adres [email] lub telefoniczny [phone] w celu omówienia dalszych kroków.
-**Skorygowano** numer dokumentu [document-number] oraz **zaktualizowano** datę [date] na dokumencie powiązanym.
-W systemie figuruje login [username] dla [name] [surname].
-"Sprawę **prowadzi** urzędnik [name] [surname], kontakt telefoniczny pod numerem [phone]."
-Konto bankowe [bank-account] **zostało zablokowane** po nieudanych próbach logowania na login [username].
-Postępowanie **nie wymaga** dalszych czynności i zostaje zamknięte z dniem [date] pod numerem [document-number].
-Kontakt elektroniczny pod adresem [email] jest w aktach sprawy [document-number].
-Pracownik firmy [company] zgłosił urlop z powodu [health] (PESEL [pesel]).
-Uczeń [name] [surname] z [school-name] ma konto [username] w systemie.
-Wniosek **został uzupełniony** przez [name] [surname] po kontakcie mailowym [email] w dniu [date].
-Wiek [age] osoby z [city] jest w aktach sprawy.
-Osoba wyraziła swoje wyznanie: [religion] w ankiecie.
-Wiek [age] i orientacja [sexual-orientation] są danymi statystycznymi (płeć [sex]).
-Pracownik socjalny **przeprowadził** wywiad dotyczący [religion] i [political-view] z [name] [surname].
-Termin płatności za fakturę upływa w dniu [date].
-Numer konta [bank-account] jest chroniony kluczem [secret].
-**Otrzymano** potwierdzenie płatności kartą [credit-card-number] dla użytkownika [username] w dniu [date].
-**Monitoruje się** stan [health] u osoby zamieszkałej w [city].
-Pracownik [job-title] otrzymał nowy klucz [secret] po ukończeniu [school-name].
-Klient **podał** dane kontaktowe [phone] i [email] w związku z historią zdrowotną [health].
-Pani [name] pracuje jako [job-title] w firmie [company].
-Wójt gminy **rozpatruje** prośbę **dotyczącą** zmiany daty urodzenia [date-of-birth] i numeru PESEL [pesel].
-Firma [company] **zatrudnia** [name] [surname] na stanowisku [job-title] od [date].
-Orientacja [sexual-orientation] i [religion] są badane przez psychologa w [school-name].
-**Zaktualizowano** adres [address] w systemie po **potwierdzeniu** tożsamości numerem PESEL [pesel].
-"W związku z koniecznością **prowadzenia** spraw, [name] [surname] **prosi** o kontakt na [email]."
-"Po **ukończeniu** [school-name], [name] [surname] **podjął** pracę jako [job-title] w [company]."
-Dokumenty z [school-name] potwierdzają datę urodzenia [date-of-birth].
-**Zarejestrowano** adres [email] i numer telefonu [phone] jako dane do **weryfikacji** transakcji.
-Nazwisko [surname] jest powiązane z krewnym [relative].
-**Wystawiono** certyfikat potwierdzający pracę do dnia [date] na stanowisku [job-title].
-Proszę o kontakt telefoniczny pod numerem [phone] po godzinie [date].
-**Wydano** zaświadczenie numer [document-number] dla [name] [surname] w dniu [date].
-"W związku z [health], [name] [surname] **wskazał** wiek [age] i pochodzenie [ethnicity]."
-Dokument [document-number] wystawiono na imię [name] [surname].
-Sprawa **została przekazana** do archiwizacji i będzie dostępna do wglądu w Urzędzie Miasta [city].
-**Zarejestrowano** numer telefonu [phone] jako dane do **weryfikacji** transakcji [bank-account].
 "**Odnotowano**, że dokument [document-number] **zawierał** sprzeczne informacje na temat stanu [health]."
-Numer telefonu [phone] jest powiązany z adresem [address].
-**Wprowadzono** nowy numer dokumentu [document-number] oraz **zaktualizowano** numer telefonu [phone].
-"Zapisano, że [relative] ma poglądy [political-view] i wyznanie [religion]."
-Dane [religion] i [political-view] są chronione kluczem [secret].
-Numer referencyjny dokumentu [document-number] jest powiązany z PESEL [pesel] i kluczem [secret].
-Zweryfikowano nazwisko [surname] na podstawie PESEL [pesel].
-Zgłoszono problem dyskryminacji w [city] ze względu na [ethnicity] (email [email]).
-Zgłoszenie **wymaga** dostarczenia dokumentacji (nr [document-number]) przez podmiot [company].
-**Zlecono** kontrolę adresu [address] [city] po otrzymaniu zgłoszenia od [relative].
-Karta [credit-card-number] jest chroniona kluczem [secret] i dokumentem [document-number].
-Konto bankowe [bank-account] należy do firmy [company].
-**Zarejestrowano** nowy numer PESEL: [pesel] w bazie danych z uwzględnieniem daty [date].
-Konto [bank-account] należy do osoby zamieszkałej pod adresem [address] w [city].
-**Weryfikuje się** dane [health] i [sex] w aktach [name] [surname] o numerze [document-number].
-Nazwisko [surname] jest głównym kryterium wyszukiwania w rejestrze.
-Burmistrz **nakazał** [name] [surname] **uzupełnić** wniosek do dnia [date].
-**Kwestionuje się** bezstronność urzędnika ze względu na [political-view] (PESEL [pesel]).
-Użycie klucza [secret] odnotowano pod adresem [address] w [city].
-Zmieniono dane na karcie [credit-card-number] powiązane z adresem [address].
-Klient **podał** dane kontaktowe [phone] i [email] w związku z historią zdrowotną [health].
-Wskazano pochodzenie etniczne: [ethnicity] dla [name] [surname].
-"W związku z koniecznością **prowadzenia** spraw, [name] [surname] **prosi** o kontakt na [phone]."
-Pochodzenie [ethnicity] jest powiązane z wyznaniem [religion].
-"**Wystawiono** certyfikat numer [document-number] potwierdzający, że [name] [surname] **pracował** na stanowisku [job-title]."
-Odnotowano dane zdrowotne: [health] pacjenta [name] [surname].
-Minimalny wiek [age] jest wymagany do otwarcia konta [bank-account] w firmie [company].
-"Zgodnie z protokołem, wiek [age] krewnego [relative] został odnotowany."
-Zgłoszenie dotyczy dyskryminacji ze względu na [religion] w firmie [company].
-Zgłoszono dyskryminację z powodu poglądów [political-view] w dniu [date].
-"Potwierdza się, że data urodzenia [date-of-birth] jest zgodna z [document-number]."
-**Przelał** środki z konta [bank-account] na inną jednostkę w dniu [date].
-**Przekazano** numer karty [credit-card-number] do działu bezpieczeństwa po **wykryciu** użycia go w [city].
-Osoba mająca [age] lat podała zły numer karty [credit-card-number].
-Pracownik płci [sex] w firmie [company] ma konto [username] i telefon [phone].
-"Zapisano, że dane [health] są chronione kluczem [secret]."
-W akcie urodzenia widnieje [name] [surname] ur. [date-of-birth].
-"Zapisano, że [religion] jest chronione kluczem [secret]."
-Wprowadzono klucz [secret] w celu autoryzacji transakcji kartą [credit-card-number].
-Adres zamieszkania to: [address] w [city].
-Konto [username] należy do [name] [surname] zamieszkałego w [city] (PESEL [pesel]).
-Wyznanie [religion] jest chronione prawnie (dokument [document-number]).
-Pełnomocnictwo dla [relative] jest ważne dla osoby na stanowisku [job-title].
-Pacjent [name] z [city] ma PESEL [pesel].
-Zajmowane stanowisko to [job-title] w firmie [company].
-Wiek [age] jest powiązany z datą urodzenia [date-of-birth] i adresem [address].
-Konto bankowe [bank-account] **zostało zablokowane** po nieudanych próbach logowania na login [username].
-Poglądy [political-view] są powiązane z pochodzeniem [ethnicity].
-"Ankieta wykazała, że płeć [sex] najczęściej **wyznaje** [religion]."
-Osoba płci [sex] ma konto [bank-account] i używa karty [credit-card-number].
-"Dokumentacja **wskazuje**, że [name] [surname] **jest objęty** ochroną ze względu na [sexual-orientation]."
-Przelew na konto [bank-account] dla [name] [surname] został zrealizowany po weryfikacji [date-of-birth].
-**Odnotowano** zmianę adresu zamieszkania dla osoby [name] [surname] na: [address].
-Zeznanie [relative] jest kluczowe dla rozpatrzenia wniosku nr [document-number].
-Klient [name] [surname] **zażądał** zwrotu środków po **wykryciu** wycieku danych z firmy [company].
-Adres [email] jest identyfikatorem konta [username] w firmie [company].
-Płeć [sex] jest ujęta w oświadczeniu o orientacji [sexual-orientation].
-Klient w wieku [age] skontaktował się z [phone] w sprawie [credit-card-number].
-Adres e-mail [email] jest powiązany z [name] w [city].
-"W wywiadzie [name] [surname] **oświadczył**, że jego poglądy są [political-view] i [religion]."
-Profesor [name] [surname] **wykłada** w [school-name] i **podał** swój numer telefonu [phone].
-Konto [username] zostało udostępnione przez [relative] w firmie [company].
-Numer [phone] należy do krewnego [relative] mieszkającego w [city].
-Potwierdzenie tożsamości osoby: [name] [surname] na podstawie [document-number].
-Pracownik firmy [company] na stanowisku [job-title] zgłosił urlop z powodu [health].
-Numer [pesel] jest wymagany do podjęcia pracy jako [job-title] w firmie [company].
-W systemie medycznym numer [pesel] służy do identyfikacji stanu [health].
-W firmie [company] odnotowano pochodzenie [ethnicity] pracownika [job-title].
-Decyzja **wchodzi w życie** z dniem jej ogłoszenia ([date]) i dotyczy adresu [address].
-Hasło awaryjne [secret] zostało wysłane na adres [email] w dniu [date].
-Inspektor **sprawdził** tożsamość [name] [surname] (PESEL [pesel]) i **zarejestrował** adres.
-W systemie figuruje login [username] dla [name] z hasłem [secret].
-Orientacja [sexual-orientation] i wyznanie [religion] są danymi wrażliwymi (adres [address]).
-Wiek [age] osoby o nazwisku [surname] ma znaczenie historyczne.
-Wysłano wezwanie pod adres [address] (dokument [document-number]).
-Zgłoszono użycie karty [credit-card-number] przez krewnego [relative].
-Osoba płci [sex] zgłosiła poglądy [political-view] i pochodzenie [ethnicity].
-Organizacje **chronią** [name] [surname] ze względu na jego pochodzenie [ethnicity] w [city].
-Wprowadzono numer konta bankowego: [bank-account] dla [name] [surname].
-Raport **zawiera** szczegółowe dane na temat płci [sex] osoby [name] [surname].
-Całość dokumentacji **została zdigitalizowana** i przekazana do [company] w dniu [date].
-**Monitoruje się** dane dotyczące wyznania [religion] w regionie [city] w dniu [date].
-Sprawa **dotyczy** orientacji [sexual-orientation] oraz numeru PESEL: [pesel].
-Zgłoszono problem z wypłatą dla [name] [surname] na stanowisku [job-title] (wiek [age]).
-Klucz [secret] jest związany z kontem bankowym [bank-account] i telefonem [phone].
-Sprawa [document-number] dotyczy [name] i [surname] mieszkających w [address].
-Zweryfikowano imię [name] na podstawie numeru [pesel].
-Adres [email] został podany przez krewnego [relative] (wiek [age]).
-Raport **weryfikuje** dane [health] i pochodzenie [ethnicity].
-Weryfikacja daty urodzenia [date-of-birth] jest wymagana do dostępu do konta [username].
-Burmistrz **nakazał** [name] [surname] **uzupełnić** wniosek (nr [document-number]) do dnia [date].
-"**Wykryto**, że [name] [surname] **użył** służbowego e-maila [email] do **zapisania** numeru karty [credit-card-number]."
-Administrator **odblokował** konto [username] i **wysłał** nowe hasło na adres [email].
-ID użytkownika w systemie to: [username] (e-mail: [email]).
-Podano poglądy polityczne: [political-view] w sekcji opinii.
-Organizacje **chronią** [name] [surname] ze względu na jego poglądy [political-view] (DOCNR [document-number]).
-Wprowadzono numer identyfikacyjny PESEL: [pesel] w dniu [date].
-Numer PESEL [pesel] został podany przez krewnego [relative] w [city].
-PESEL [pesel] potwierdza wiek [age] i płeć [sex].
-W wywiadzie [name] [surname] **oświadczył** swoją orientację [sexual-orientation] i [religion].
-W [city] odbył się zjazd osób o pochodzeniu [ethnicity].
-"Po **ukończeniu** [school-name], [name] [surname] **podjął** pracę jako [job-title] w [company]."
-Wprowadzono imię [name] do bazy klientów w dniu [date].
-Adres [address] jest adresem korespondencyjnym uczelni [school-name].
-**Przetwarzano** dane dotyczące daty urodzenia [date-of-birth] osoby [name] [surname].
-"Decyzja **zostanie podjęta** w terminie 14 dni roboczych od daty [date], co ogłoszono w Biuletynie [city]."
-Inspektor **sprawdził** tożsamość [name] [surname] (PESEL [pesel]).
-**Przekazano** dane [name] [surname] do działu HR w [company] wraz z informacją o wieku [age].
-Pani [name] [surname] pracuje jako [job-title] w [company] na podstawie [document-number].
-Pacjent [name] [surname] ma problem [health] i pochodzenie [ethnicity].
-Księgowy **skontaktował się** z [name] [surname] na adres [email] w sprawie [credit-card-number].
-Raport **zawiera** szczegółowe dane na temat [ethnicity] i stanu [health].
-Uczelnia [school-name] **przyznała** [name] [surname] numer identyfikacyjny [pesel] do celów rekrutacyjnych.
-Dokumenty z [school-name] potwierdzają datę urodzenia [date-of-birth].
-Poglądy [political-view] są przypisane do [surname] i [religion].
-Numer [document-number] jest wymagany do uzyskania dostępu do konta [username] w firmie [company].
-Pacjent [name] [surname] ma problem [health] i płeć [sex].
-Numer karty [credit-card-number] jest powiązany z kontem [bank-account] należącym do [name] [surname].
-"**Ustalono**, że adres [address] jest zbieżny z podanym numerem [phone]."
-Poglądy [political-view] i wyznanie [religion] to dane wrażliwe.
-"Zapisano, że adres [email] jest chroniony kluczem [secret]."
-Pani [name] ukończyła [school-name] w wieku [age].
-Numer konta [bank-account] jest powiązany z datą urodzenia [date-of-birth].
-Weryfikacja wieku [age] jest wymagana do dostępu do konta [username].
-**Wydano** zaświadczenie numer [document-number] dla [name] [surname] w dniu [date].
-Wprowadzono dane karty [credit-card-number] w celu opłacenia rachunku w firmie [company].
-Wydanie karty [credit-card-number] wymaga podania daty urodzenia [date-of-birth] i adresu [address].
-Ubezpieczenie zdrowotne obejmuje także [relative] (PESEL [pesel]).
-Wprowadzono fałszywy numer [pesel] podczas rejestracji do [school-name] w [city].
-Płeć [sex] jest badana w kontekście krewnego [relative] i [school-name].
-Adres korespondencyjny znajduje się w mieście [city].
 "Zapisano, że [sexual-orientation] jest chronione kluczem [secret] i dokumentem [document-number]."
-Numer referencyjny dokumentu to: [document-number] i dotyczy sprawy [name] [surname].
-Zaleca się kontakt mailowy na adres [email] w celu omówienia dalszych kroków.
-"Dokumentacja **wskazuje**, że [name] [surname] **wyznaje** [religion] i posiada poglądy [political-view]."
-Inspektor **sprawdził** tożsamość [name] [surname] i **zarejestrował** [city].
-Pełnomocnik [name] [surname] **przedstawił** nowy adres do korespondencji [address].
-W terminie 7 dni **przysługuje** odwołanie za pośrednictwem adresu: [address].
-Wniosek o urlop ze względu na święto [religion] został zatwierdzony w dniu [date].
-Osoba w wieku [age] **wniosła** o wydanie duplikatu dokumentu [document-number].
-Doświadczenie zawodowe jako [job-title] jest niezbędne w [city] dla [company].
-**Odmówiono** ujawnienia PESEL [pesel] ze względu na wrażliwość danych [health] osoby [name] [surname].
-Stanowisko [job-title] jest kluczowe i wymaga klucza [secret].
-**Wprowadzono** nowy numer dokumentu [document-number] oraz **zaktualizowano** numer telefonu [phone].
-Wiek [age] ma znaczenie w kontekście poglądów [political-view] i wyznania [religion].
-"Obecny pracodawca to [company], z siedzibą w [city]."
-Wiek [age] osoby o imieniu [name] to [age] lat.
-PESEL [pesel] potwierdza wiek [age] i płeć [sex] osoby [name].
-Zgłoszono dyskryminację w [school-name] z powodu [sexual-orientation] i pochodzenia [ethnicity].
-Księgowy **skontaktował się** z [name] [surname] w sprawie wynagrodzenia na konto [bank-account] (email: [email]).
-"**Odnotowano**, że [name] [surname] **zrezygnował** ze stanowiska [job-title] i **podał** numer konta [bank-account] do rozliczenia."
-Klient [name] [surname] **zażądał** zwrotu środków na numer konta [bank-account] po **wykryciu** wycieku danych.
-Data [date-of-birth] jest powiązana z wiekiem [age] i adresem [address] w [city].
-**Zlecono** kontrolę adresu [address] [city] po **otrzymaniu** zgłoszenia od [relative].
-Użytkownik [username] podał kontaktowy numer telefonu [phone] i adres [address].
-**Autoryzowano** przelew z karty [credit-card-number] na kwotę widniejącą w raporcie z dnia [date].
-"W związku z [sexual-orientation], wymagana jest zmiana adresu [address] w [city]."
-Absolwent [school-name] uzyskał numer dokumentu [document-number] w dniu [date].
-"Orientacja [sexual-orientation] jest chroniona (bank [bank-account], karta [credit-card-number])."
-Pani [name] wskazała [religion] w ankiecie na adres [email].
-W urzędzie **odrzucono** wniosek z powodu braków w adresie [address] [city].
+Zgłoszenie dotyczy dyskryminacji ze względu na [religion] w firmie [company].
+Data [date-of-birth] została przekazana do działu HR w [company] wraz z informacją o wieku [age].
+Weryfikacja wieku [age] jest wymagana do dostępu do konta [username].
+Karta płatnicza [credit-card-number] **została zablokowana** w dniu [date] po próbie transakcji na rachunek [bank-account].
+Konto bankowe [bank-account] **zostało zablokowane** po nieudanych próbach logowania na login [username].
+Sprawa **dotyczy** orientacji [sexual-orientation] oraz numeru PESEL: [pesel].
+Wskazano pochodzenie etniczne: [ethnicity] dla [name] [surname].
+Klient **podał** dane kontaktowe w związku z historią zdrowotną [health] swojego krewnego [relative].
+Osoba płci [sex] zgłosiła orientację [sexual-orientation] (wiek [age]).
+Firma [company] **zatrudnia** [name] [surname] na stanowisku [job-title] od [date-of-birth].
+Zgłoszono problem dyskryminacji w [city] ze względu na [ethnicity] (email [email]).
+"Zapisano, że [political-view] jest chronione kluczem [secret]."
 Klucz [secret] jest chroniony zgodnie z procedurami firmy [company].
+"Dział HR w [company] odnotował, że [name] ma poglądy [political-view] (email [email])."
+"**Odnotowano**, że [name] [surname] **zrezygnował** ze stanowiska [job-title] i **podał** numer konta [bank-account] do rozliczenia."
+Hasło awaryjne [secret] zostało wysłane na adres [email] w dniu [date].
+Płeć [sex] jest badana w kontekście krewnego [relative] i [school-name].
+Poglądy [political-view] są powiązane z przelewami na konto [bank-account] z karty [credit-card-number].
+Zgłoszenie e-mail [email] zostało wysłane w dniu [date] z [city].
+[name] [surname] **awansował** ze stanowiska [job-title] i **otrzymał** nowe uprawnienia [document-number].
+Zlecono kontrolę użycia klucza [secret] w dniu [date] przez [name] [surname].
+**Zobowiązuje się** [name] [surname] do dostarczenia zaświadczenia o zatrudnieniu na stanowisku [job-title].
+W terminie 7 dni **przysługuje** odwołanie za pośrednictwem adresu: [address].
+Wysłano informację o studentach z [school-name] na adres [email].
+Dane zdrowotne [health] są objęte klauzulą tajności [secret] i adresem [email].
+Wiek [age] jest powiązany z datą urodzenia [date-of-birth] i adresem [address].
+Wójt gminy **rozpatruje** prośbę **dotyczącą** zmiany daty urodzenia [date-of-birth].
+**Przekazano** dane [name] [surname] do działu HR w [company] wraz z informacją o wieku [age].
+"Dokumentacja **wskazuje**, że [name] [surname] **wyznaje** [religion] i posiada poglądy [political-view]."
+Absolwent [school-name] uzyskał numer dokumentu [document-number] w dniu [date].
+Numer referencyjny dokumentu to: [document-number] i dotyczy sprawy [name] [surname].
+Inspektor [name] [surname] **nadzoruje** projekt i **wymaga** klucza [secret] od [job-title].
+Pacjent [name] z [city] ma PESEL [pesel].
+Zweryfikowano imię [name] na podstawie numeru [pesel].
+Karta [credit-card-number] jest chroniona kluczem [secret] i dokumentem [document-number].
+Adres [email] jest identyfikatorem konta [username] w firmie [company].
+Rekrutacja do [school-name] jest możliwa dla osób w wieku [age].
+Zajmowane stanowisko to [job-title] w firmie [company].
+Umowa została podpisana w dniu [date] przez osobę w wieku [age] lat.
+Pani [name] [surname] pracuje jako [job-title] w [company] na podstawie [document-number].
+**Odnotowano** zmianę adresu zamieszkania dla osoby [name] [surname] na: [address].
+Organizacje **chronią** [name] [surname] ze względu na jego pochodzenie [ethnicity] w [city].
+Dokument **odnosi się** do [sexual-orientation] osoby zamieszkałej pod adresem [address].
+PESEL [pesel] potwierdza wiek [age] i płeć [sex] osoby [name].
+Student [name] [surname] **złożył** podanie o urlop dziekański w [school-name] z powodu stanu zdrowia [health].
+Numer karty [credit-card-number] jest powiązany z kontem [bank-account] należącym do [name] [surname].
+Zapisano numer karty płatniczej: [credit-card-number] dla [username].
+Pełnomocnik [name] [surname] **przedstawił** numer telefonu [phone] do kontaktu.
+Kontakt elektroniczny pod adresem [email] jest w aktach sprawy [document-number].
+[name] [surname] **awansował** ze stanowiska [job-title] i **otrzymał** nowe uprawnienia.
+Numer [pesel] należy do osoby wyznania [religion] (DOB [date-of-birth]).
+Osoba urodzona [date-of-birth] **wyznaje** [religion] i ma poglądy [political-view].
+Uczelnia [school-name] **przyznała** [name] [surname] numer identyfikacyjny [pesel] do celów rekrutacyjnych.
+Pani [name] wskazała [religion] w ankiecie na adres [email].
+"W wywiadzie [name] [surname] **oświadczył**, że jego poglądy są [political-view] i [religion]."
+Odnotowano dane zdrowotne: [health] pacjenta [name] [surname].
+Numer telefonu [phone] jest powiązany z adresem [address].
+Dokumenty z [school-name] potwierdzają datę urodzenia [date-of-birth].
+Numer [phone] należy do krewnego [relative] mieszkającego w [city].
+Dokument [document-number] wystawiono na imię [name] [surname].
+Potwierdzenie tożsamości osoby: [name] [surname] na podstawie [document-number].
+Konto bankowe [bank-account] **zostało zablokowane** po nieudanych próbach logowania na login [username].
+Lekarz **badał** stan zdrowia [health] pacjenta [name] [surname] (wiek [age]).
+W urzędzie **odrzucono** wniosek z powodu braków w adresie [address] [city].
+**Przydzielono** nowy login [username] i **zażądano** zmiany hasła [secret] dla [name] [surname] w [company].
+Skontaktowano się z [phone] z regionu [city].
+Płeć [sex] jest ujęta w oświadczeniu o orientacji [sexual-orientation].
+Decyzja **wchodzi w życie** z dniem jej ogłoszenia ([date]) i dotyczy adresu [address].
+Klient w wieku [age] skontaktował się z [phone].
+Lekarz **poprosił** o kontakt do [relative] po zbadaniu [health] pacjenta [name] [surname].
+Uczelnia [school-name] **przyznała** [name] [surname] numer identyfikacyjny [pesel] do celów rekrutacyjnych.
+Pracownik płci [sex] w firmie [company] ma konto [username] i telefon [phone].
+W [school-name] odnotowano płeć [sex] studenta [name].
+Wprowadzono numer konta bankowego: [bank-account] dla [name] [surname].
+Data urodzenia [date-of-birth] jest niezbędna do weryfikacji PESEL [pesel].
+Zgłoszono problem z kartą [credit-card-number] należącą do [name] [surname] (PESEL [pesel]).
+Wypłata wynagrodzenia dla [name] [surname] nastąpi na konto [bank-account] w dniu [date].
+"W związku z [health], [name] [surname] **wskazał** wiek [age] i pochodzenie [ethnicity]."
+Pełnomocnictwo dla [relative] jest ważne dla osoby na stanowisku [job-title].
+Minimalny wiek [age] jest wymagany do otwarcia konta [bank-account] w firmie [company].
+Psycholog **zażądał** informacji o [relative] w związku ze stanem zdrowia [health] pacjenta [name].
+"W trakcie wywiadu [name] [surname] **oświadczył**, że jest płci [sex] i **wyznaje** [religion]."
+Minimalny wiek [age] jest wymagany do otwarcia konta [bank-account] w firmie [company].
+Nazwisko [surname] jest powiązane z krewnym [relative].
+Profesor [name] [surname] **wykłada** w [school-name] i **podał** swój numer telefonu [phone].
+Data [date-of-birth] jest chroniona kluczem [secret] i adresem [email].
+Klient w wieku [age] skontaktował się z [phone] w sprawie [credit-card-number].
+ID użytkownika w systemie to: [username] (e-mail: [email]).
+"Zgodnie z protokołem, wiek [age] krewnego [relative] został odnotowany."
+Zarejestrowano adres [address] jako siedzibę firmy [company].
+"**Odnotowano**, że dokument [document-number] **zawierał** sprzeczne informacje na temat stanu [health] i adresu [address]."
+W systemie figuruje login [username] dla [name] z hasłem [secret].
+**Zażądano** numeru telefonu [phone] w kontekście historycznych danych medycznych z [date].
+Księgowy **skontaktował się** z [name] [surname] na adres [email] w sprawie [credit-card-number].
+"**Wystawiono** certyfikat potwierdzający, że [name] [surname] **pracował** na stanowisku [job-title] do dnia [date]."
+Wprowadzono dane karty [credit-card-number] w celu opłacenia rachunku w firmie [company].
+Osoba uczęszczała do [school-name] w wieku [age].
+"**Zgłoszono** podejrzenie, że [relative] jest krewnym [name] [surname] w [school-name]."
+Wiek [age] jest kluczowy w kontekście świadczeń medycznych ([health]).
+Klient [name] [surname] **zażądał** zwrotu środków po **wykryciu** wycieku danych z firmy [company].
+Wyznanie [religion] jest chronione prawnie (dokument [document-number]).
+**Zarejestrowano** adres [email] i numer telefonu [phone] jako dane do **weryfikacji** transakcji.
+Pełnomocnik [name] [surname] **przedstawił** nowy adres [address] i numer [phone].
+Numer [document-number] zawiera dane o pochodzeniu [ethnicity] osoby płci [sex].
+"Obecny pracodawca to [company], z siedzibą w [city]."
+Osoba płci [sex] zgłosiła poglądy [political-view] i pochodzenie [ethnicity].
+Dokument **odnosi się** do pochodzenia [ethnicity] osoby [name] [surname] zamieszkałej pod adresem [address].
+Wprowadzono klucz [secret] w celu autoryzacji transakcji kartą [credit-card-number].
+Poglądy [political-view] są powiązane z pochodzeniem [ethnicity].
+Zeznanie [relative] dotyczy swobody wyznania [religion] w [address].
+Pełnomocnik [name] [surname] **przedstawił** nowy adres do korespondencji [address].
+Orientacja [sexual-orientation] i wyznanie [religion] są danymi wrażliwymi (adres [address]).
+"Ankieta wykazała, że płeć [sex] najczęściej **wyznaje** [religion]."
+**Otrzymano** potwierdzenie płatności kartą [credit-card-number] dla użytkownika [username].
+**Odmówiono** ujawnienia PESEL [pesel] ze względu na wrażliwość danych [health] osoby [name] [surname].
+Adres [address] jest adresem korespondencyjnym uczelni [school-name].
+"Po **ukończeniu** [school-name], [name] [surname] **podjął** pracę jako [job-title] w [company]."
+Osoba płci [sex] ma konto [bank-account] i używa karty [credit-card-number].
+Ostatnia aktywność na koncie [bank-account] została odnotowana w dniu [date].
+Zgłoszono użycie karty [credit-card-number] przez krewnego [relative].
+Uczeń [name] [surname] z [school-name] ma konto [username] w systemie.
+Użycie klucza [secret] odnotowano pod adresem [address] w dniu [date].
+Numer [document-number] jest wymagany do uzyskania dostępu do konta [username] w firmie [company].
+Dane [sexual-orientation] zostały przekazane do działu HR w [company] (telefon [phone]).
+Firma [company] ma swoją siedzibę w mieście [city].
+Poglądy [political-view] i wyznanie [religion] to dane wrażliwe.
+Wiek [age] i poglądy [political-view] są danymi statystycznymi w [city].
+Imię [name] jest kluczowym elementem identyfikacji w systemie.
+Zarejestrowano nazwisko [surname] w systemie [username] pod adresem [email].
+Klient **podał** dane kontaktowe w związku z historią zdrowotną [health] swojego krewnego [relative].
+"W trakcie wywiadu [name] [surname] **oświadczył**, że jest płci [sex] i wyznania [religion]."
+Konto [username] należy do [name] [surname] zamieszkałego w [city] (PESEL [pesel]).
+Numer dokumentu [document-number] jest wymagany do podjęcia pracy jako [job-title].
+"Sprawę **prowadzi** urzędnik [name] [surname], kontakt telefoniczny pod numerem [phone]."
+**Zarejestrowano** nowy numer PESEL: [pesel] w bazie danych z uwzględnieniem daty [date].
+Wysłano wezwanie pod adres [address] (dokument [document-number]).
+Osoba na stanowisku [job-title] z [company] ma PESEL [pesel].
+W systemie figuruje login [username] dla [name] [surname].
+Wprowadzono imię [name] do bazy klientów w dniu [date].
+**Wprowadzono** nowy numer dokumentu [document-number] oraz **zaktualizowano** numer telefonu [phone].
+Raport **zawiera** szczegółowe dane na temat [sexual-orientation] osoby o imieniu [name] [surname].
+Pracownik firmy [company] zgłosił urlop z powodu [health] (PESEL [pesel]).
+Zgłoszenie **wymaga** podania adresu e-mail [email] i **potwierdzenia** tożsamości numerem [pesel].
+Kontakt telefoniczny z [name] pod numerem [phone] jest niemożliwy.
+Pani [name] na stanowisku [job-title] podała adres [address] i telefon [phone].
+Wniosek **został uzupełniony** przez [name] [surname] po kontakcie mailowym [email] w dniu [date].
+Adres zamieszkania to: [address] w [city].
+**Monitoruje się** dane dotyczące pochodzenia [ethnicity] (klucz [secret]).
+W [city] odbył się zjazd osób o pochodzeniu [ethnicity].
+**Zaleca się** kontakt mailowy na adres [email] lub telefoniczny [phone] w celu omówienia dalszych kroków.
+Zlecono sprawdzenie adresu [address] dla rodziny [surname] w dniu [date].
+"Po **ukończeniu** [school-name], [name] [surname] **podjął** pracę jako [job-title] w [company]."
+Adres zamieszkania to: [address] w [city].
+**Skorygowano** numer dokumentu [document-number] oraz **zaktualizowano** datę [date] na dokumencie powiązanym.
+W akcie urodzenia widnieje [name] [surname] ur. [date-of-birth].
+**Odmówiono** ujawnienia PESEL [pesel] ze względu na wrażliwość danych [health].
+Sprawa **dotyczy** orientacji [sexual-orientation] oraz numeru PESEL: [pesel] osoby [name] [surname].
+Wprowadzono fałszywy numer [pesel] podczas rejestracji do [school-name] w [city].
+"Zapisano, że dane [health] są chronione kluczem [secret]."
+Weryfikacja płci [sex] jest niezbędna do rozpatrzenia sprawy [document-number] w dniu [date].
+Sprawa **została przekazana** do archiwizacji i będzie dostępna do wglądu w Urzędzie Miasta [city].
+Orientacja [sexual-orientation] i [religion] są badane przez psychologa w [school-name].
+Rektor [name] [surname] z [school-name] prosi o przelew na konto [bank-account].
+Doświadczenie zawodowe jako [job-title] jest niezbędne w [city] dla [company].
+Firma [company] **zatrudnia** [name] [surname] od [date] (wiek [age]).
+Pacjent [name] [surname] **zgłosił** problem zdrowotny: [health] i **wymaga** pilnej konsultacji.
+Pani [surname] opuściła [school-name] w wieku [age].
+**Wprowadzono** nowy numer dokumentu [document-number] oraz **zaktualizowano** numer telefonu [phone].
+Pochodzenie [ethnicity] jest powiązane z wyznaniem [religion].
+Wiek [age] osoby o nazwisku [surname] ma znaczenie historyczne.
+Poglądy [political-view] są powiązane z datą urodzenia [date-of-birth] i adresem [address].
+**Przyjęto** do wiadomości oświadczenie o nowym adresie korespondencyjnym [address] (email: [email]).
+Osoba w wieku [age] **wniosła** o wydanie duplikatu dokumentu [document-number].
+Księgowy **skontaktował się** z [name] [surname] w sprawie wynagrodzenia na konto [bank-account] (email: [email]).
+Termin płatności za fakturę upływa w dniu [date].
+Wydanie karty [credit-card-number] wymaga podania daty urodzenia [date-of-birth].
+"Potwierdza się, że data urodzenia [date-of-birth] jest zgodna z [document-number]."
+Pani [name] ukończyła [school-name] w wieku [age].
+Numer [pesel] jest chroniony kluczem [secret] i powiązany z kontem [bank-account].
+W urzędzie **odrzucono** wniosek z powodu braków w adresie [address] [city].
+Sprawa [document-number] dotyczy [name] i [surname] mieszkających w [address].
+Inspektor [name] [surname] **nadzoruje** projekt w [company] i **wymaga** klucza [secret].
+Zgłoszono użycie karty [credit-card-number] przez krewnego [relative] w [school-name].
+Numer [document-number] jest powiązany z kluczem szyfrującym [secret] i adresem [address].
+Decyzja **wchodzi w życie** z dniem jej ogłoszenia i dotyczy adresu [address].
+Dokument zawiera notatkę o płci [sex] osoby [name] (e-mail [email]).
+"Urzędnik potwierdza, że rodzina o nazwisku [surname] figuruje w rejestrze [city]."
+"Orientacja [sexual-orientation] jest chroniona (bank [bank-account], karta [credit-card-number])."
+"**Wykryto**, że [name] [surname] **użył** służbowego e-maila [email] do **zapisania** numeru karty [credit-card-number]."
+Raport **zawiera** szczegółowe dane na temat poglądów [political-view] i stanu [health].
+Brak reakcji ze strony [company] jest niedopuszczalny (email: [email]).
+Osoba wyraziła swoje wyznanie: [religion] w ankiecie.
+Wymagany jest klucz [secret] do weryfikacji konta pracownika [username] w [company].
+**Kwestionuje się** bezstronność urzędnika ze względu na [political-view] (PESEL [pesel]).
+Zgłoszono dyskryminację w [school-name] z powodu [sexual-orientation] i pochodzenia [ethnicity].
+"Zapisano, że [religion] jest chronione kluczem [secret]."
+PESEL [pesel] potwierdza wiek [age] i płeć [sex].
+**Zlecono** kontrolę adresu [address] [city] po **otrzymaniu** zgłoszenia od [relative].
+**Monitoruje się** stan [health] u osoby zamieszkałej w [city].
+Przelew na konto [bank-account] dla [name] [surname] został zatwierdzony.
+Numer [document-number] jest wymagany do uzyskania dostępu do konta [username] w firmie [company].
+Pochodzenie [ethnicity] jest badane w kontekście wyznania [religion] i daty [date].
+"W związku z [sexual-orientation], wymagana jest zmiana adresu [address] w [city]."
+Pracownik [job-title] otrzymał nowy klucz [secret] po ukończeniu [school-name].
+**Przetwarzano** dane dotyczące wieku [age] i stanu [health] osoby [name] [surname] ur. [date-of-birth].
+**Monitoruje się** dane dotyczące wyznania [religion] w regionie [city] w dniu [date].
+Inspektor **sprawdził** tożsamość [name] [surname] i **zarejestrował** [city].
+Numer PESEL [pesel] został podany przez krewnego [relative] w [city].
+Klient **podał** dane kontaktowe [phone] i [email] w związku z historią zdrowotną [health].
+Księgowy kontaktuje się z [name] [surname] w sprawie zaległości na koncie [bank-account].
+Inspektor **sprawdził** tożsamość [name] [surname] (PESEL [pesel]) i **zarejestrował** adres.
+"Zapisano, że [ethnicity] jest chronione prawnie (telefon [phone])."
+"W związku z [health], [name] [surname] **wskazał** wiek [age] i datę urodzenia [date-of-birth] jako dane krytyczne."
+Doświadczenie zawodowe jako [job-title] wymagane jest od wieku [age].
+W akcie urodzenia widnieje [name] [surname] ur. [date-of-birth].
+Firma [company] odnotowała pochodzenie [ethnicity] pracownika [name].
+Numer karty [credit-card-number] jest powiązany z adresem e-mail [email] i telefonem [phone].
+Ubezpieczenie zdrowotne obejmuje także [relative] (PESEL [pesel]).
+Zweryfikowano nazwisko [surname] na podstawie PESEL [pesel].
+"Zapisano, że [relative] ma poglądy [political-view] i wyznanie [religion]."
+Adres [address] należy do osoby płci [sex] (wiek [age]).
+Klient **podał** dane kontaktowe [phone] i [email] w związku z historią zdrowotną [health].
+"W związku z [health], [name] [surname] **wskazał** datę urodzenia [date-of-birth] jako dane krytyczne."
+Wprowadzono ostateczną adnotację w rejestrze pod numerem [document-number] dotyczącą osoby [name] [surname].
+"Dokumentacja **wskazuje**, że [name] [surname] **jest objęty** ochroną ze względu na [sexual-orientation]."
+Wniosek o kredyt na konto [bank-account] został odrzucony (PESEL [pesel]).
+"W związku z koniecznością **prowadzenia** spraw, [name] [surname] **prosi** o kontakt na [email]."
+Wydanie karty [credit-card-number] wymaga podania daty urodzenia [date-of-birth] i adresu [address].
+Użycie klucza [secret] odnotowano pod adresem [address] w [city].
+Klucz [secret] jest związany z kontem bankowym [bank-account] i telefonem [phone].
+Bank **odrzucił** wniosek [name] [surname] o kredyt po **sprawdzeniu** numeru [pesel].
+Pacjent [name] [surname] ma problem [health] i płeć [sex].
+Klucz [secret] jest wymagany do dostępu do danych [pesel] osoby [name] [surname].
+Osoba o płci [sex] zgłosiła poglądy [political-view] i pochodzenie [ethnicity].
+Pani [name] pracuje jako [job-title] w firmie [company].
+**Przetwarzano** dane dotyczące daty urodzenia [date-of-birth] osoby [name] [surname].
+**Wystawiono** certyfikat potwierdzający pracę do dnia [date] na stanowisku [job-title].
+W systemie zapisano klucz bezpieczeństwa: [secret] (klucz poufny).
+Numer konta [bank-account] jest powiązany z datą urodzenia [date-of-birth].
+Karta płatnicza [credit-card-number] **została zablokowana** w dniu [date] po próbie transakcji.
+Konto [bank-account] należy do osoby zamieszkałej pod adresem [address] w [city].
+W systemie zarejestrowano płeć [sex] dla numeru PESEL [pesel] (DOB: [date-of-birth]).
+Konto [username] i klucz [secret] należą do [name] [surname] (wiek [age]).
+**Przekazano** numer karty [credit-card-number] do działu bezpieczeństwa po **wykryciu** użycia go w [city].
+Adres e-mail [email] jest powiązany z [name] w [city].
+Wprowadzono numer identyfikacyjny PESEL: [pesel] w dniu [date].
+Użytkownik [username] podał kontaktowy numer telefonu [phone] i adres [address].
+Zaleca się kontakt mailowy na adres [email] w celu omówienia dalszych kroków.
+"Decyzja **zostanie podjęta** w terminie 14 dni roboczych od daty [date], co ogłoszono w Biuletynie [city]."
+"**Odnotowano**, że [name] [surname] **zrezygnował** ze stanowiska [job-title] i **podał** numer konta [bank-account] do rozliczenia."
+Burmistrz **nakazał** [name] [surname] **uzupełnić** wniosek do dnia [date].
+Przelew na konto [bank-account] dla [name] [surname] został zrealizowany po weryfikacji [date-of-birth].
+Zgłoszono dyskryminację w [school-name] z powodu [sexual-orientation] w dniu [date].
+Wiek [age] osoby o imieniu [name] to [age] lat.
+Postępowanie **nie wymaga** dalszych czynności i zostaje zamknięte z dniem [date] pod numerem [document-number].
+Numer [pesel] jest wymagany do podjęcia pracy jako [job-title] w firmie [company].
+Zarejestrowano numer [phone] jako dane do **weryfikacji** transakcji [bank-account].
+Raport **weryfikuje** dane [health] i pochodzenie [ethnicity].
+**Zlecono** kontrolę adresu [address] [city] po otrzymaniu zgłoszenia od [relative].
+**Otrzymano** potwierdzenie płatności kartą [credit-card-number] dla użytkownika [username].
+Dane [name] [surname] i numer [phone] są w aktach sprawy z kluczem [secret].
+Potwierdzono orientację seksualną: [sexual-orientation] w oświadczeniu.
+Organizacje **chronią** [name] [surname] ze względu na jego poglądy [political-view] (DOCNR [document-number]).
+Pracownik firmy [company] na stanowisku [job-title] zgłosił urlop z powodu [health].
+Wiek [age] i pochodzenie [ethnicity] są danymi statystycznymi.
+**Weryfikuje się** dane [health] i [sex] w aktach [name] [surname] o numerze [document-number].
+**Monitoruje się** stan [health] u osoby w wieku [age] zamieszkałej w [city].
+**Skorygowano** numer dokumentu [document-number] oraz **zaktualizowano** datę [date] na dokumencie.
+Przelew na konto [bank-account] dla [name] [surname] został zatwierdzony.
+Pisemne **potwierdzenie** doręczenia jest dostępne pod numerem [phone] w Urzędzie.
+Zgłaszający jest płci: [sex] (wiek [age]).
+Zgłoszono problem z wypłatą dla [name] [surname] na stanowisku [job-title] (wiek [age]).
+Adres korespondencyjny znajduje się w mieście [city].
+Poglądy [political-view] są przypisane do [surname] i [religion].
+Pacjent [name] [surname] ma problem [health] i pochodzenie [ethnicity].
+Całość dokumentacji **została zdigitalizowana** i przekazana do [company] w dniu [date].
+**Weryfikuje się** dane [health] i [sex] w aktach [name] [surname] o numerze [document-number].
+Pochodzenie [ethnicity] i orientacja [sexual-orientation] są objęte ochroną (PESEL [pesel]).
+"Pani [name] podała, że jej orientacja to [sexual-orientation] (email [email])."
+Pracownik firmy [company] zgłosił urlop z powodu [health] (PESEL [pesel]).
+Numer konta [bank-account] jest chroniony kluczem [secret].
+Petent [name] [surname] **wniósł** o wydanie duplikatu dokumentu [document-number] w związku ze zmianą adresu.
+Adres e-mail [email] jest powiązany z adresem zamieszkania [address] w [city].
+Raport **zawiera** szczegółowe dane na temat płci [sex] osoby [name] [surname].
+"**Wydano** zaświadczenie numer [document-number] dla [name] [surname] w dniu [date], **potwierdzające** wiek [age]."
+Wymagane jest doświadczenie na stanowisku [job-title] dla kandydatów płci [sex].
+Wniosek o urlop ze względu na święto [religion] został zatwierdzony w dniu [date].
+Weryfikacja daty urodzenia [date-of-birth] jest wymagana do dostępu do konta [username].
+Adres [email] został podany przez krewnego [relative] (wiek [age]).
+Klient [name] [surname] **zażądał** zwrotu środków na numer konta [bank-account] po **wykryciu** wycieku danych.
+W urzędzie **odrzucono** wniosek [document-number] **złożony** przez [name] [surname] z powodu braków w adresie [address].
+Klient [name] [surname] **zażądał** zwrotu środków na konto [bank-account] w dniu [date].
+System **odnotował** nieudane **logowanie** na konto [username] z kluczem [secret].
+Osoba o imieniu [name] urodziła się w dniu [date-of-birth].
+Dane [religion] i [political-view] są chronione kluczem [secret].
+Wyznanie [religion] i [political-view] są przypisane do osoby [name].
+Kontakt telefoniczny pod numerem [phone] jest kluczowy dla sprawy [document-number].
+"**Wystawiono** certyfikat numer [document-number] potwierdzający, że [name] [surname] **pracował** na stanowisku [job-title]."
+Karta płatnicza [credit-card-number] **została zablokowana** po próbie transakcji na rachunek [bank-account].
+**Uzupełniono** wniosek o dane [name] [surname] oraz **załączono** oświadczenie dotyczące relacji [relative].
+Zeznanie [relative] jest kluczowe dla rozpatrzenia wniosku nr [document-number].
+Wiek [age] ma znaczenie w kontekście poglądów [political-view] i wyznania [religion].
+Wiek [age] osoby [name] i jej [religion] są danymi wrażliwymi (PESEL [pesel]).
+"Ostatnia aktualizacja nastąpiła w dniu [date], co potwierdza [document-number]."
+Stanowisko [job-title] jest kluczowe i wymaga klucza [secret].
+Zgłoszono problem z kontem [username] należącym do krewnego [relative].
+"**Wykryto**, że [name] [surname] **użył** służbowego e-maila [email] do **zapisania** numeru karty [credit-card-number]."
+Pacjent [name] [surname] w wieku [age] zgłosił [health] w [city].
+System **wygenerował** tymczasowy klucz API [secret] dla pracownika [name] [surname] z firmy [company].
+Zgłoszenie **wymaga** dostarczenia dokumentacji (nr [document-number]) przez podmiot [company].
+Wiek [age] osoby [name] i jej pochodzenie [ethnicity] są danymi wrażliwymi.
+Zgłoszono dyskryminację z powodu poglądów [political-view] w dniu [date].
+Pracownik socjalny **przeprowadził** wywiad dotyczący [religion] i [political-view] z [name] [surname].
+Data [date-of-birth] jest powiązana z wiekiem [age] i adresem [address] w [city].
+Pani [name] wskazała [ethnicity] w ankiecie z datą urodzenia [date-of-birth].
+Konto [username] zostało udostępnione przez [relative].
+Wiek [age] [relative] ma znaczenie w kontekście daty [date].
+Wiek [age] osoby z [city] jest w aktach sprawy.
+"**Ustalono**, że adres [address] jest zbieżny z podanym numerem [phone]."
+Konto bankowe [bank-account] należy do firmy [company].
+Zeznanie [relative] dotyczy pochodzenia [ethnicity] i jego krewnego [name].
+Weryfikacja wieku [age] jest wymagana do dostępu do konta [username].
+[name] [surname] **awansował** i **otrzymał** nowe uprawnienia (numer [document-number]).
+**Zarejestrowano** nowy numer PESEL: [pesel] w bazie danych z uwzględnieniem daty [date].
+Zeznanie [relative] **kwestionuje** datę urodzenia [date-of-birth] swojego brata [name].
+**Zarejestrowano** numer telefonu [phone] jako dane do **weryfikacji** transakcji [bank-account].
+Orientacja [sexual-orientation] jest badana przez psychologa w kontekście [health] i [relative].
+Burmistrz **nakazał** [name] [surname] **uzupełnić** wniosek (nr [document-number]) do dnia [date].
+Nazwisko [surname] jest głównym kryterium wyszukiwania w rejestrze.
+**Wydano** zaświadczenie numer [document-number] dla [name] [surname] w dniu [date].
+Konto [username] zostało udostępnione przez [relative] w firmie [company].
+Informacje dotyczą bliskiego krewnego: [relative] [name] [surname].
+W systemie medycznym numer [pesel] służy do identyfikacji stanu [health].
+**Zgłoszenie** wymaga podania adresu e-mail [email] i **potwierdzenia** tożsamości numerem [pesel].
+[relative] zgłosił problem w [school-name].
+Klient [name] [surname] prosi o kontakt z [relative] pod numerem [phone] lub [email].
+Numer referencyjny dokumentu [document-number] jest powiązany z PESEL [pesel] i kluczem [secret].
+Proszę o kontakt telefoniczny pod numerem [phone] po godzinie [date].
+Administrator **odblokował** konto [username] i **wysłał** nowe hasło na adres [email].
+Firma [company] **zatrudnia** [name] [surname] na stanowisku [job-title] od [date].
+Osoba mająca [age] lat podała zły numer karty [credit-card-number].
+W firmie [company] odnotowano pochodzenie [ethnicity] pracownika [job-title].
+Profesor [name] [surname] **wykłada** w [school-name] i **podał** swój numer telefonu [phone] do kontaktu.
+Student [name] [surname] **złożył** podanie o urlop dziekański w [school-name] z powodu [health].
+**Wydano** zaświadczenie numer [document-number] dla [name] [surname] w dniu [date].
+**Zaktualizowano** adres [address] w systemie po **potwierdzeniu** tożsamości numerem PESEL [pesel].
+**Przekazano** numer karty [credit-card-number] do działu bezpieczeństwa po **wykryciu** użycia go w [city].
+Pani [name] opuściła [school-name] w dniu [date].
+W wywiadzie [name] [surname] **oświadczył** swoją orientację [sexual-orientation] i [religion].
+**Sprawdzono** poprawność numeru identyfikacyjnego [document-number] w Centralnym Rejestrze Danych Administracyjnych.
+Dokumenty z [school-name] potwierdzają datę urodzenia [date-of-birth].
+"Zapisano, że adres [email] jest chroniony kluczem [secret]."
+"Dokumentacja **wskazuje**, że [name] [surname] **jest objęty** ochroną ze względu na poglądy [political-view]."
+Inspektor **sprawdził** tożsamość [name] [surname] (PESEL [pesel]).
+"**Zgłoszono** podejrzenie, że [relative] **kwestionuje** datę urodzenia [date-of-birth] swojego brata [name]."
+Organizacje **chronią** [name] [surname] ze względu na jego orientację [sexual-orientation] i pochodzenie [ethnicity].
+Księgowy **skontaktował się** z [name] [surname] na adres [email] w sprawie wynagrodzenia na konto [bank-account].
+Zażądano numeru telefonu [phone] w kontekście historycznych danych medycznych [health] z [date].
+Osoba mająca [age] lat podała zły numer karty [credit-card-number].
+Wniosek **mówi** o wieku [age] w kontekście poglądów [political-view].
+Sprawa [document-number] dotyczy [name] i jego krewnego [relative].
+Wiek [age] i orientacja [sexual-orientation] są danymi statystycznymi (płeć [sex]).
+Osoba [name] [surname] ma [age] lat i mieszka w [city] pod adresem [address].
+**Otrzymano** potwierdzenie płatności kartą [credit-card-number] dla użytkownika [username] w dniu [date].
+Administrator **odblokował** konto [username] i **wysłał** nowe hasło na adres [email].
+**Zlecono** kontrolę adresu [address] [city] po **otrzymaniu** zgłoszenia od [relative].
+Zażądano podania nazwiska [surname] w związku z użyciem karty [credit-card-number].
+Raport **zawiera** szczegółowe dane na temat [ethnicity] i stanu [health].
+Konto [username] zostało zablokowane ze względu na naruszenie regulaminu.
+**Zaktualizowano** adres [address] w systemie po **potwierdzeniu** tożsamości numerem PESEL [pesel].
+Wymagane jest doświadczenie na stanowisku [job-title] dla kandydatów płci [sex].
+Podano poglądy polityczne: [political-view] w sekcji opinii.
+**Autoryzowano** przelew z karty [credit-card-number] na kwotę widniejącą w raporcie z dnia [date].
+"W trakcie wywiadu [name] [surname] **oświadczył**, że jest płci [sex] i **wyznaje** [religion]."
+Pacjent płci [sex] zgłosił problem [health] i adres [address] w [city].
+**Zobowiązuje się** [name] [surname] do dostarczenia zaświadczenia o zatrudnieniu w [company] na stanowisku [job-title].
+Zmieniono dane na karcie [credit-card-number] powiązane z adresem [address].
+Brak klucza [secret] uniemożliwia weryfikację konta [username] i [credit-card-number].
+"**Zobowiązuje się** stronę [name] [surname] do **uzupełnienia** braków formalnych, przesyłając je na adres [email]."
+Adres e-mail [email] jest identyfikatorem konta [username] w systemie.
+**Zażądano** numeru telefonu [phone] w kontekście historycznych danych medycznych z [date].
+**Zobowiązuje się** [name] [surname] do dostarczenia zaświadczenia o zatrudnieniu w [company] w [city].
+Wójt gminy **rozpatruje** prośbę **dotyczącą** zmiany daty urodzenia [date-of-birth] i numeru PESEL [pesel].
+"Zapisano, że [name] ma drugie imię [name]."
+Klucz [secret] musi zostać zmieniony co [age] dni.
+"W związku z koniecznością **prowadzenia** spraw, [name] [surname] **prosi** o kontakt na [phone]."
+**Przelał** środki z konta [bank-account] na inną jednostkę w dniu [date].
+Wprowadzono klucz [secret] w celu autoryzacji transakcji kartą [credit-card-number].
