@@ -4,13 +4,6 @@ Repo draft for Hacknation project
 
 
 
-## Wymagania
-
-- Node.js >= 18  
-- npm  
-- Python >= 3.10  
-
-
 ## 1️⃣ Backend – FastAPI
 
 1. Przejdź do folderu backend:
