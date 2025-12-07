@@ -2,22 +2,28 @@
 
 Nasz system anonimizacji opiera się na dwóch niezależnie rozwijanych podejściach: fine-tuningu HerBERT-Large do NER oraz systemie regułowym wspomagane AI + deanonimizacja syntetyczna.
 Niestety nie starczylo nam czasu na podpiecie modelu HerBERT-Large do frontendu.
+![img.png](img.png)
+[demo.mp4](demo.mp4)
 ---
 
 ## 2. Struktura repozytorium
 
 ```
-├── src/
-│   ├── anonymizer.py          # Główny moduł anonimizacji
-│   ├── generator.py           # Generator danych syntetycznych
-│   ├── inference.py           # Uruchamianie modelu NER
-│   └── utils/                 # Pomocnicze skrypty: tokenizacja, fleksja, słowniki
+├── frontend/src/
+│   │── api/
+│   ├── assets/          # Główny moduł anonimizacji
+│   ├── constans/           # Generator danych syntetycznych
+│   ├── components           # Uruchamianie modelu NER
+│   └── styles/                 # Pomocnicze skrypty: tokenizacja, fleksja, słowniki
 │
-├── models/
-│   └── herbert_ner/           # Wagi fine-tunowanego modelu (opcjonalnie)
+│── backend/
+│   │── main.py                # Generowanie odpowiedzi modelu
 │
-├── data/
-│   └── dictionaries/          # Słowniki imion, miast, adresów itd.
+│
+├── dataset/
+│   └── anonymizer_values_55k/          # Słowniki imion, miast, adresów itd.
+│   └── szablony_zdan/          # Predefiniowane zdania z placeholderami
+│   └── output_data/          # Wygenerowany Korpus Syntetyczny (NER)
 │
 ├── output_[nazwa_zespolu].txt                # Wynik anonimizacji (wymagane)
 ├── performance_[nazwa_zespolu].txt           # Metryki i środowisko (wymagane)
@@ -49,34 +55,18 @@ Proces anonimizacji w finalnym rozwiązaniu działa następująco:
 
 ### Wymagania
 
-* Python 3.10+
-* PyTorch
-* Transformers
-* Morfeusz 2 (lub inny moduł morfologiczny użyty w projekcie)
+Docker Desktop 
 
 ### Instalacja
 
-```bash
-pip install -r requirements.txt
-```
+docker-compose up
 
 ---
 
-## 5. Uruchomienie anonimizacji
+## 5. Linki
+Bert fine tuning:
+https://colab.research.google.com/drive/1wfSXAJxOqR2JfEMlEA5WX7oK-ywqP6xo#scrollTo=DjbbdCMAztni
 
-### Anonimizacja pliku wejściowego
-
-```bash
-python src/anonymizer.py --input input.txt --output output_[nazwa_zespolu].txt
-```
-
-### Generacja danych syntetycznych (opcjonalnie)
-
-```bash
-python src/generator.py --template templates/example.txt --output synthetic.txt
-```
-
----
 
 ## 6. Kontakt / Zespół
 **Hallucination Nation**
@@ -98,3 +88,4 @@ PG, ML Engineering
 - https://aclanthology.org/2021.bsnlp-1.1/
 - https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1585260/full
 - https://www.sciencedirect.com/science/article/pii/S0957417425030908
+
