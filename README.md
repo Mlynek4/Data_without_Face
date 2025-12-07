@@ -37,6 +37,7 @@ Nasz system anonimizacji został zbudowany w oparciu o **dwa równolegle rozwija
 
 Z uwagi na ograniczenia czasowe, do wersji demonstracyjnej podłączona została wyłącznie **metoda regułowa**, jednak oba podejścia zostały zaprojektowane, przetestowane i porównane pod kątem jakości anonimizacji.
 
+
 Proces anonimizacji w finalnym rozwiązaniu działa następująco:
 
 1. **Tekst wejściowy** jest analizowany przez Presidio oraz nasze dodatkowe reguły (RegEx + modele klasyfikacyjne).
