@@ -7,7 +7,7 @@ import re
 # SEED = 20251206
 # random.seed(SEED)
 
-TARGET = 6000 
+TARGET = 1000 
 OUTPUT_FILE = "szablony_zdan.csv"
 # ----- PLACEHOLDERS -----
 PH = {
