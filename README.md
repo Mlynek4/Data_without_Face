@@ -3,7 +3,9 @@
 Nasz system anonimizacji opiera się na dwóch niezależnie rozwijanych podejściach: fine-tuningu HerBERT-Large do NER oraz systemie regułowym wspomagane AI + deanonimizacja syntetyczna.
 Niestety nie starczylo nam czasu na podpiecie modelu HerBERT-Large do frontendu.
 ![img.png](img.png)
-[demo.mp4](demo.mp4)
+
+https://github.com/user-attachments/assets/d9f76757-bcbd-4352-bbdf-3cac4fdd7647
+
 ---
 
 ## 2. Struktura repozytorium
